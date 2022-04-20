@@ -1,0 +1,43 @@
+#-------Raspberry pi  ---------
+
+# Common
+# pip==22.0.4 
+six==1.16.0
+numpy==1.22.3
+
+# TFlite
+absl-py==1.0.0
+flatbuffers==1.12
+pybind11==2.9.2
+tflite-runtime==2.8.0
+tflite-support==0.3.1
+# setuptools==56.0.0
+# opencv-python==4.5.3.56
+
+
+# CV2 Most already installed from "Installtion Notes" section Above
+imutils ==0.5.3
+
+#face-recognition        ==1.3.0
+#face-recognition-models ==0.3.0
+#tensorflow              ==2.7.0
+#tensorflow-estimator    ==2.7.0
+#keras                   ==2.7.0
+#Keras-Preprocessing     ==1.1.2
+# opencv-contrib-python   ==4.5.5.64
+# opencv-python           ==4.5.5.64
+# dlib                    ==19.23.1
+
+# Probably needed if you're using the Pi Camera -> Remember usb Cameras are easier to deal with
+# picamera == 1.13 -> If this doesn't work - Probably won't it's old and not for new Pis -> OsError libmmal.so
+# Consider using PiCamera2- Currently you'll have to build it though 
+
+# Not Sure
+scipy      == 1.8.0
+matplotlib ==3.5.1
+# ------- Others -----------
+# Pillow     == 9.1.0
+# Hussain flatbuffers ==2.0
+# Probably needed -> argparse
+# For keyboard stuff -> pynput
+#------------------- Pi end----------------------------
