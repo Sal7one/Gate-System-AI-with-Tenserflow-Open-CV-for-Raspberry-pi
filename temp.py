@@ -22,4 +22,3 @@ def start():
             print("Wrong read, please try again")
 
     return safe
-
