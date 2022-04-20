@@ -9,16 +9,18 @@ attempt = 0
 safe = False
 
 def start():
-    while( attempt < 3):
+    while(attempt < 3):
         if(temp > 32.0 and temp < 39.0):
             bus.close()
             safe = True
             break
         else:
             attempt+=1
+            sleep(5)
+            temp = sensor.get_object_1()+3.5
 
-    print("Try again")
-    sleep(5)
-    temp = sensor.get_object_1()+3.5
+        if(attempt < 3):
+            print("Try again")
+
     return safe
 

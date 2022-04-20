@@ -34,6 +34,10 @@ while True:
         HealthBardetector.startHealthBarDetect("models/barmodel.tflite", 0, 640, 480, 4, False)
         
        #--------------- Phase 4 Start ----------------
+        sleep(1)
+        sendLCDMesssage("Please put your hand infront of the temperature sensor")
+        sleep(2)
+
         if Tempdetector.start():
             sendLCDMesssage("Granted Enetry")
         else:
