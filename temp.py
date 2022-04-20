@@ -16,11 +16,11 @@ def start():
             break
         else:
             attempt+=1
-            sleep(5)
+            sleep(4)
             temp = sensor.get_object_1()+3.5
 
         if(attempt < 3):
-            print("Try again")
+            print("Wrong read, please try again")
 
     return safe
 
