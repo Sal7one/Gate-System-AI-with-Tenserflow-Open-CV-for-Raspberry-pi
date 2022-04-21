@@ -9,8 +9,7 @@ Try to follw these steps
 4 - Face recognition library (B)
 
 A: For Tenserflow and OpenCV installation and problems checkout this video  <a style="display: inline;" href="https://www.youtube.com/watch?v=vekblEk6UPc">Tenserflow and Opencv installation for Pi </a>
-
-  <a style="display: inline;" href="https://github.com/PINTO0309/Tensorflow-bin">Repo for Python-Tenserflow matching</a>
+<a style="display: inline;" href="https://github.com/PINTO0309/Tensorflow-bin">Repo for matching  Python-Tenserflow on a Raspberry Pi- architecture</a>
 
 B: For Face recognition library checkout this video  <a style="display: inline;" href="https://smartbuilds.io/installing-face-recognition-library-on-raspberry-pi-4/"> Face recognition library</a>
 </pre>
