@@ -1,7 +1,7 @@
 ## Installtion Notes
 
 <pre>
-Try to follw these steps
+Try to follow these steps
 
 1 - Tenserflow and OpenCV installation (A)
 2 - Make sure your Camera is working
